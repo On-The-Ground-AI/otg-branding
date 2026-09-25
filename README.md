@@ -4,6 +4,17 @@ Condensed reference for producing any On The Ground (OTG) collateral: web, decks
 
 > **This file must be kept together with the `OTG_brand_assets/` folder.** Text alone cannot convey what the logo actually looks like. Before producing anything that includes the logo, or any correct/incorrect usage check, open and view the image files listed in the Logo section below — do not attempt to redraw or approximate the wordmark from the text description.
 
+## Non-Negotiable: Light Backgrounds Only
+
+Applies to **every** OTG product and deliverable — web pages, apps, PDFs, decks, proposals, social posts, event collateral, documents.
+
+- **Never use a black or dark background.** No dark mode, no dark hero sections, no dark slides or PDF pages, no dark cover pages.
+- **Backgrounds**: light beige (Warm Off-White `#f5f3f0`), Pure White `#ffffff`, or light Apple Green (`#eef5e4`).
+- **Text**: black (Near-Black `#121212`) or navy (Deep Navy `#1a2235`).
+- **Accents**: Brick Terracotta `#E2725B` — the OTG accent colour for highlights, dividers, CTAs, icons, and headline accents.
+
+If any other rule in this file or an older asset appears to call for a dark background, this rule wins.
+
 ## Brand Foundation
 
 - **Name**: Always "On The Ground" (three words, title case). "OTG" is informal-only — announcements, event names, social handles. Never in formal headings or the wordmark.
@@ -19,16 +30,17 @@ Condensed reference for producing any On The Ground (OTG) collateral: web, decks
 | Role | Name | Hex | Usage |
 |---|---|---|---|
 | Background | Pure White | `#ffffff` | Primary page background |
+| Background | Warm Off-White (light beige) | `#f5f3f0` | Page or section backgrounds, cards, footer |
+| Background | Light Apple Green | `#eef5e4` | Alternative light page or section background |
 | Primary text | Near-Black | `#121212` | Body, headings, nav, logo |
-| Warm surface | Warm Off-White | `#f5f3f0` | Section backgrounds, cards, footer |
+| Primary text | Deep Navy | `#1a2235` | Alternative text colour — headings, body, stats |
 | Border/divider | Warm Grey | `#e8e4de` | Rules, card borders |
 | Muted text | Mid-Grey | `#666666` | Captions, secondary text |
 | **Hero colour** | Brick Terracotta | `#E2725B` | CTAs, dividers, highlights, icons, headline accents — reach for first for any colour moment |
-| Dark block | Deep Navy-Charcoal | `#1a2235` | Stats banner / one high-contrast moment per page only |
 | Primary button | Near-Black fill | `#121212` + white text | "Book a Free 30-Min Call →" |
 | Secondary button | White fill | `#ffffff` + dark border | Paired beside primary |
 
-Rules: white/off-white is the default canvas, never busy. Terracotta leads for colour. Inside the logo, terracotta is reserved solely for the full stop — never elsewhere in the wordmark. Only one dark-navy contrast block per page. No gradients, shadows, or colour photography as backgrounds.
+Rules: white, light beige, or light apple green is always the canvas — never black or dark, never busy. Text is black or navy. Terracotta leads for colour. Inside the logo, terracotta is reserved solely for the full stop — never elsewhere in the wordmark. No dark contrast blocks or banners — for a stats moment, use navy or terracotta text on a light background. No gradients, shadows, or colour photography as backgrounds.
 
 ## Typography
 
@@ -53,7 +65,7 @@ Voice shifts slightly by context: hero copy is bold/abrupt; Services/Method is c
 
 - Centred column, ~1100–1200px max-width, generous margins. 80–120px vertical whitespace between sections — whitespace is treated as the design, not empty space.
 - Single 1px warm-grey divider between sections. Never thick bars or colour bands.
-- Cards: 1px `#e8e4de` border, no shadow, ~6px radius, white or warm off-white fill.
+- Cards: 1px `#e8e4de` border, no shadow, ~6px radius, white, warm off-white, or light apple green fill.
 - Buttons: near-black fill / white fill with dark border, ~6px radius, arrow glyph (→) on primary, no gradients or shadows ever.
 - Icons: line-style only, ~24px, terracotta or mid-grey, used sparingly — never decorative filler.
 - Photography: rare, editorial/documentary only (no stock smiling people, no AI-generated imagery). Most sections carry no imagery at all.
@@ -74,14 +86,14 @@ Voice shifts slightly by context: hero copy is bold/abrupt; Services/Method is c
 | `OTG_brand_assets/logo_circular_lockup.png` | Side-by-side figure: the circular-safe master file next to how it actually looks once a platform applies its own circular mask. |
 | `OTG_brand_assets/logo_clear_space.png` | Diagram of the 1X clear-space unit around the wordmark. |
 | `OTG_brand_assets/logo_minimum_size.png` | Three-way comparison: recommended size / minimum size / too small (with the failure visibly starting to clog). |
-| `OTG_brand_assets/logo_correct_usage.png` | Positive examples: full-colour on white, reversed on dark. |
+| `OTG_brand_assets/logo_correct_usage.png` | Positive examples: full-colour on white, reversed on dark (reversed is for third-party placements only — OTG's own collateral is always light). |
 | `OTG_brand_assets/logo_incorrect_usage_1.png` | Negative examples: stretch/distort, compress, recolour the full stop, crowd the logo. |
 | `OTG_brand_assets/logo_incorrect_usage_2.png` | Negative examples: low-contrast background, added effects (shadow/glow), rotate/tilt. |
 
 **Rules:**
 
 - **Primary lockup**: fixed three-line stack "On / The / Ground." in Geologica Bold, vector outlines. Never single-line, never reordered, never drop the full stop.
-- **Colour**: wordmark ink is `#000000` (flips to white on dark). The full stop is always `#E2725B` terracotta — never recoloured, even reversed.
+- **Colour**: wordmark ink is `#000000`. The full stop is always `#E2725B` terracotta — never recoloured. OTG collateral is always on a light background, so use the full-colour logo; the reversed (white) version is only for third-party placements we don't control.
 - **Circular lockup**: required for circle-only platforms (Instagram/LinkedIn profile photos). The primary lockup is left-aligned with "Ground." — the widest line — at the bottom; a circular mask is narrowest top/bottom and widest through the middle, so cropping the primary lockup into a circle clips the sides off "Ground." and the full stop. The circular-safe file (`OnTheGround_circular.svg`/`.eps`) fixes this: all three lines centred, "The" sitting exactly at the centre. Never self-crop the primary lockup into a circle yourself — see `logo_circular_lockup.png`.
 - **Clear space**: unit X = height of one line ("On"). Keep ≥1X clear space all sides, 1.5–2X where possible — see `logo_clear_space.png`.
 - **Minimum size**: 110px digital / 20mm print is the hard floor — see `logo_minimum_size.png`. Don't force the full lockup smaller; use a simplified mark instead.
@@ -90,10 +102,10 @@ Voice shifts slightly by context: hero copy is bold/abrupt; Services/Method is c
 
 ## Collateral Style
 
-- **Decks**: white bg, Inter, eyebrow labels + em-dash connectors, one idea per slide, no bullet walls.
+- **Decks**: white, light beige, or light apple green bg (never dark), Inter, eyebrow labels + em-dash connectors, one idea per slide, no bullet walls.
 - **Proposals**: plain structured tables, "from S$X" pricing phrasing, explicitly named deliverables (e.g. "Phase 1: Discover — Map current processes").
 - **Social (LinkedIn)**: factual, direct, no hashtag spam. Mirrors the eyebrow → declarative headline → supporting detail structure.
-- **Events/workshops**: minimal, black-and-white preferred, eyebrow dot-separator naming (e.g. "CW-2 · Claude Code for Business"), date/format/price upfront.
+- **Events/workshops**: minimal, black text on white or light beige preferred, eyebrow dot-separator naming (e.g. "CW-2 · Claude Code for Business"), date/format/price upfront.
 
 ## Social Media Visual Guide — Instagram
 
@@ -102,11 +114,13 @@ Voice shifts slightly by context: hero copy is bold/abrupt; Services/Method is c
 - **Post anatomy**: terracotta eyebrow → short terracotta "scan line" (segmented tick accent) → bold headline (Inter ≥800, centred, terracotta full stop echoing the logo) → 1–2 lines mid-grey supporting copy → thin warm-grey divider → optional bordered detail card (event date/time/location).
 - **Iconography**: a small node-network icon (circles + thin strokes, one node terracotta) is the sanctioned AI/network motif — once per post, never repeating.
 - **HUD frame**: thin terracotta corner brackets (~34px arms, 3px stroke, ~54px inset) — viewfinder-style framing, all strokes/typography, no gradients or photography.
-- **Status badge**: small navy (`#1a2235`) pill, white Inter Medium label — the one permitted dark-contrast moment, at social scale.
+- **Status badge**: small pill with a navy (`#1a2235`) or terracotta outline and matching label text on a light fill — no dark fills.
 - **Links don't work in images**: never design a clickable-looking button into a post graphic. Direct to "link in bio" or put the URL in the caption.
 - **Captions**: eyebrow-style declarative headline first, supporting detail after — same voice rules as everywhere else, no emoji, no hashtag spam.
 
 ## Working Notes (things that tripped us up — check before shipping)
+
+- Never ship anything with a black or dark background — including PDFs, cover pages, slides, and dark-mode variants. Light beige, white, or light apple green only.
 
 - Instagram's default post ratio changes over time; verify before generating new sizes.
 - When recreating any logo graphic, use the actual vector source file or extract the original raster from the source PDF — don't hand-approximate with a substitute font + drawn dot; subtle differences (weight, spacing, crop) are noticeable and wrong.
